@@ -1,5 +1,5 @@
 {
-  "name": "flux-dispatcher-queue",
+  "name": "flux-queue-dispatcher",
   "version": "1.0.0",
   "description": "",
   "scripts": {
