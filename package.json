@@ -1,12 +1,12 @@
 {
   "name": "flux-queue-dispatcher",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Implements the Flux dispatcher with queued actions.",
   "scripts": {
     "test": "jest"
   },
   "main": "src/dispatcher.queue.js",
-  "author": "Max Cherniavskyi <maximuse.chern@gmail.com>",
+  "author": "Max Cherniavskyi <xamydnah@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
