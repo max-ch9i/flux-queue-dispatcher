@@ -1,8 +1,13 @@
 {
   "name": "flux-queue-dispatcher",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Implements the Flux dispatcher with queued actions.",
-  "keywords": ["flux", "queue", "dispatcher", "asynchronous"],
+  "keywords": [
+    "flux",
+    "queue",
+    "dispatcher",
+    "asynchronous"
+  ],
   "scripts": {
     "test": "jest"
   },
