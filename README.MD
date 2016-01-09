@@ -15,7 +15,7 @@ To handle this situation all `dispatch()` calls are put into a queue and execute
 
 Set up the dispatcher module.
 
-```
+```javascript
 // @file /dispatcher.js
 import QueueDispatcher from 'flux-queue-dispatcher';
 
@@ -26,7 +26,7 @@ export const dispatch = dispatcher.queueDispatch.bind(disp);
 
 Use it whenever actions are triggered.
 
-```
+```javascript
 // @file /comp1.js
 import React from 'react';
 import {dispatch} from './dispatcher.js';
