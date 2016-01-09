@@ -2,8 +2,13 @@
   "name": "flux-queue-dispatcher",
   "version": "0.1.0",
   "description": "Implements the Flux dispatcher with queued actions.",
+  "keywords": ["flux", "queue", "dispatcher", "asynchronous"],
   "scripts": {
     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maximus8891/flux-queue-dispatcher.git"
   },
   "main": "src/dispatcher.queue.js",
   "author": "Max Cherniavskyi <xamydnah@gmail.com>",
