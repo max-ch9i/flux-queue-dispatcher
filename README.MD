@@ -21,7 +21,7 @@ import QueueDispatcher from 'flux-queue-dispatcher';
 
 var dispatcher = new QueueDispatcher();
 export default dispatcher;
-export const dispatch = dispatcher.queueDispatch.bind(disp);
+export const dispatch = dispatcher.queueDispatch.bind(dispatcher);
 ```
 
 Use it whenever actions are triggered.
